@@ -54,12 +54,16 @@ td {
 }
 
 .element.metalloid {
+    /*
     border-color: #FF7777;
+    */
+    border-color: #ee4b37;
 }
 
 .element.non-metal {
     /* border-color: #33FFDD; */
-    border-color: magenta;
+    /*border-color: magenta;*/
+    border-color: #ec65a0;
 }
 
 .element.unknown-metal {
@@ -67,20 +71,30 @@ td {
 }
 
 .element.gas {
+    /*
     color: lime;
+    */
+    color: #b1eb21;
 }
 
 .element.liquid {
+    /*
     color: cyan;
+    */
+    color: #33f7fc;
 }
 
 .element.solid {
+    /*
     color: #FFFF44;
+    */
+    color: #fce033;
 }
 
 .element.radiative .name {
-    width: 60%;
-    border-style: solid;
-    border-width: 0 0 2px;
-    border-color: transparent transparent #FF7777;
+    /*
+    text-shadow: 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777;
+    */
+    /*text-shadow:0 0 5px red;*/
+    color: #e4e7e8;
 }
