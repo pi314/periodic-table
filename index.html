@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Cychih">
+    <title>Periodic Table</title>
+    <link type="text/css" href="main.css" rel="stylesheet"/>
+    <script src="vue-v2.0.5.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body onload="main()">
+    <div id="app">
+      <table>
+        <tbody>
+          <tr>
+            <td id="title" colspan="18">The Periodic Table of Elements</td>
+          </tr>
+          <tr></tr>
+          <tr v-for="row in table">
+            <td v-for="index in row">
+              <div v-if="index > 0"
+                   class="element metal"
+                   :class="[metal_type(elements[index]), state(elements[index]), radiative(elements[index])]">
+                <div>
+                  <div class="index">{{ elements[index][0] }}</div>
+                  <div class="superscript">{{ elements[index][1] }}</div>
+                </div>
+                <div class="name">{{ elements[index][2] || '?' }}</div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </body>
+</html>
