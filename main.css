@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: #111111;
 }
 
 table {
@@ -54,16 +54,12 @@ td {
 }
 
 .element.metalloid {
-    /*
-    border-color: #FF7777;
-    */
-    border-color: #ee4b37;
+    border-color: #EE4B37;
 }
 
 .element.non-metal {
-    /* border-color: #33FFDD; */
-    /*border-color: magenta;*/
-    border-color: #ec65a0;
+    /* border-color: #0055FF; */
+    border-color: #47D0FF;
 }
 
 .element.unknown-metal {
@@ -71,30 +67,17 @@ td {
 }
 
 .element.gas {
-    /*
-    color: lime;
-    */
-    color: #b1eb21;
+    color: #62DB7A;
 }
 
 .element.liquid {
-    /*
-    color: cyan;
-    */
-    color: #33f7fc;
+    color: #47D0FF;
 }
 
 .element.solid {
-    /*
-    color: #FFFF44;
-    */
-    color: #fce033;
+    color: #FCE033;
 }
 
 .element.radiative .name {
-    /*
-    text-shadow: 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777;
-    */
-    /*text-shadow:0 0 5px red;*/
-    color: #e4e7e8;
+    text-shadow: 0 0 20px #FF7777, 0 0 20px #FF7777, 0 0 20px #FF7777;
 }
